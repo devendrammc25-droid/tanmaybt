@@ -1,5 +1,5 @@
 # 🐕 Meet Chi Chi – The AI Robot Dog  
-### SQC Club Interactive Event Website
+## SQC Club Event Website
 
 This repository contains the source code for the **official event website** of **SQC Club**, promoting an interactive session with an **AI-powered robotic dog named “Chi Chi.”**  
 The website is designed to be **modern, animated, student-friendly, and visually engaging**.
@@ -45,8 +45,8 @@ The website is designed to be **modern, animated, student-friendly, and visually
 ---
 
 ## 📂 Project Structure
-## By Tanmay Mishra
-## From NIT JALANDHAR
+# By Tanmay Mishra
+## NIT JALANDHAR
 
 
 
