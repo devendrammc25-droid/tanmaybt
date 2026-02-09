@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meet Chi Chi - The AI Robot Dog | SQC Club Event</title>
+
+    <!-- Tailwind CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Hero Section -->
+    <section class="hero min-h-screen flex items-center justify-center py-20 relative">
+        <div class="grid-pattern"></div>
+        <div class="particles" id="particles"></div>
+
+        <div class="container mx-auto px-6 z-10">
+            <div class="flex flex-col lg:flex-row items-center justify-between">
+
+                <!-- Left Content -->
+                <div class="lg:w-1/2 text-center lg:text-left mb-12 lg:mb-0">
+                    <span class="inline-block px-4 py-1 rounded-full bg-opacity-20 bg-purple-800 text-purple-300 text-sm border border-purple-500 mb-6 fade-up">
+                        SQC CLUB PRESENTS
+                    </span>
+
+                    <h1 class="text-4xl md:text-6xl font-black orbitron mb-4 glow-text fade-up delay-75">
+                        MEET CHI CHI
+                    </h1>
+
+                    <h2 class="text-2xl md:text-3xl font-bold orbitron mb-6 text-cyan-300 fade-up delay-150">
+                        THE AI ROBOT DOG
+                    </h2>
+
+                    <p class="text-lg mb-8 text-gray-300 max-w-lg fade-up delay-300">
+                        Experience the future of robotics and artificial intelligence with Chi Chi.
+                    </p>
+
+                    <button class="btn bg-gradient-to-r from-purple-600 to-blue-500 text-white font-bold py-3 px-8 rounded-full glow-border fade-up delay-500">
+                        Register Now
+                    </button>
+                </div>
+
+                <!-- Robot Dog -->
+                <div class="lg:w-1/2 flex justify-center fade-up delay-300">
+                    <div class="dog-container">
+                        <div class="robot-dog"></div>
+                        <div class="absolute inset-0 rounded-full bg-gradient-to-r from-blue-500 to-purple-500 opacity-20 blur-xl pulse"></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Countdown Section -->
+    <section class="py-24 bg-dark-bg text-center">
+        <h2 class="text-3xl font-bold orbitron text-cyan-400 mb-8">EVENT COUNTDOWN</h2>
+
+        <div class="grid grid-cols-4 gap-4 max-w-3xl mx-auto">
+            <div class="card p-4"><div id="days" class="text-4xl">00</div>DAYS</div>
+            <div class="card p-4"><div id="hours" class="text-4xl">00</div>HOURS</div>
+            <div class="card p-4"><div id="minutes" class="text-4xl">00</div>MINUTES</div>
+            <div class="card p-4"><div id="seconds" class="text-4xl">00</div>SECONDS</div>
+        </div>
+    </section>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
